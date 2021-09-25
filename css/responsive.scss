@@ -1,0 +1,298 @@
+@media only screen and (max-width: 991px) {
+    header {
+
+        .navbar {
+            padding: 8px 0;
+
+            .container {
+                max-width: 100vw;
+            }
+
+            .navbar-brand {
+                position: static;
+                margin-left: 16px;
+            }
+
+            .navbar-toggler {
+                margin-right: 16px;
+            }
+
+            .navbar-collapse {
+                background-color: $secondary-color;
+
+                .nav-item {
+                    .nav-link {
+                        border: none !important;
+                    }
+                }
+            }
+            .sidemenu{
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .wexim-home {
+        .wexim-home-content {
+            width: 100%;
+
+            i {
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 45px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .about {
+        .about-wrapper {
+            display: block;
+            padding-top: 80px;
+
+            .about-content {
+                padding-bottom: 50px;
+                margin: 0;
+
+                .progress-report {
+                    width: 75%;
+                }
+            }
+        }
+    }
+
+    .services {
+        .services-heading {
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+    .team {
+        .team-heading {
+            p {
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .team-wrapper {
+            .change-direction {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+
+    .mobile-design {
+        .mobile-design-heading {
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                width: 100%;
+            }
+
+        }
+        .mobile-design-wrapper {
+            .iphone-design {
+                padding: 20px 29%;
+            }
+        }
+    }
+
+    .pricing {
+        .pricing-heading {
+            h1 {
+                font-size: 35px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        .navbar {
+            .sidemenu {
+                .sidemenu-list{
+                    ul {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .wexim-home {
+        height: 100%;
+        padding: 90px 0;
+
+        .wexim-home-content {
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .about {
+        .about-wrapper {
+            .about-content {
+                    .about-heading {
+                        h2 {
+                            font-size: 40px;
+                        }
+                    }
+
+                .progress-report {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .digital-services {
+        .digital-services-wrapper {
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .pricing {
+        .pricing-wrapper {
+            display: block;
+
+            .Pricing-card {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .achivement {
+        .achivement-wrapper {
+            display: block;
+
+            .achivement-list {
+                padding: 100px 0;
+            }
+        }
+    }
+
+    .work {
+        .work-wrapper {
+            padding: 0 50px;
+
+        .project-item {
+            &:first-child {
+                margin-top: 20px;
+            }
+        }
+            .work-footer {
+                display: block;
+                padding-left: 20px;
+
+                .work-footer-content {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 430px) {
+    .wexim-home {
+        .wexim-home-content {
+            .learn-more {
+                margin-top: 10px;
+
+            }
+        }
+    }
+    .about {
+        .about-wrapper {
+            .about-content {
+                padding: 0 20px;
+
+                .about-heading {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+    .achivement {
+        .achivement-wrapper {
+            .achivement-list {
+                ul {
+                    padding-left: 40px;
+
+                    &:last-child {
+                        padding-left: 100px;
+                    }
+                }
+            }
+            .carousel {
+                .carousel-item {
+                    padding: 50px 20px;
+                }
+            }
+        }
+    }
+
+    .mobile-design {
+        .mobile-design-heading {
+            h1 {
+                font-size: 32px;
+            }
+        .mobile-design-wrapper {
+            }
+            .iphone-design {
+                padding: 20px 25%;
+            }
+        }
+    }
+
+    .work {
+        .work-wrapper {
+            padding: 0 40px;
+
+            .work-heading {
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .blog {
+        .blog-wrapper {
+            .blog-content {
+                h1 {
+                    font-size: 31px;
+                }
+            }
+            .address  {
+                h1 {
+                    font-size: 31px;
+                }
+            }
+        }
+    }
+}
